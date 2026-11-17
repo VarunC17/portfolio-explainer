@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Secrets: never commit these
+.env
+
+# Editor/OS
+.vscode/
+.DS_Store
+
+# Local data is not committed, but keep the folder itself
+data/*
+!data/.gitkeep
